@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ps3p1"/>
+        <attribute name="authors" value="omori"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-06 08:48:26 PM"/>
+        <attribute name="created" value="b21vcmk7TEFQVE9QLUpTSVBHM1A5OzIwMjQtMTAtMDY7MDg6MTE6MjIgUE07MjkwMQ=="/>
+        <attribute name="edited" value="b21vcmk7TEFQVE9QLUpTSVBHM1A5OzIwMjQtMTAtMDY7MDg6NDg6MjYgUE07MTszMDIz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="msft"/>
+            <input variable="numofshares"/>
+            <input variable="costpershare"/>
+            <assign variable="amtinvested" expression="numofshares*costpershare"/>
+            <output expression="msft" newline="True"/>
+            <output expression="amtinvested" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

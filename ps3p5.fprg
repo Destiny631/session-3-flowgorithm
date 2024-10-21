@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ps3p2"/>
+        <attribute name="authors" value="omori"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-06 09:17:20 PM"/>
+        <attribute name="created" value="b21vcmk7TEFQVE9QLUpTSVBHM1A5OzIwMjQtMTAtMDY7MDg6NTA6MTggUE07MjkwOQ=="/>
+        <attribute name="edited" value="b21vcmk7TEFQVE9QLUpTSVBHM1A5OzIwMjQtMTAtMDY7MDk6MTc6MjAgUE07MjszMDE1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="radofacircle"/>
+            <declare name="calculatearea" type="Integer" array="False" size=""/>
+            <declare name="calculateperimeter" type="Integer" array="False" size=""/>
+            <output expression="area" newline="True"/>
+            <output expression="perimeter" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

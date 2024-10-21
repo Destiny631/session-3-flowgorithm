@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ps3p2"/>
+        <attribute name="authors" value="omori"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-06 08:54:38 PM"/>
+        <attribute name="created" value="b21vcmk7TEFQVE9QLUpTSVBHM1A5OzIwMjQtMTAtMDY7MDg6NTA6MTggUE07MjkwOQ=="/>
+        <attribute name="edited" value="b21vcmk7TEFQVE9QLUpTSVBHM1A5OzIwMjQtMTAtMDY7MDg6NTQ6MzggUE07MTszMDIz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="studentlastname"/>
+            <input variable="midtermexamscore"/>
+            <input variable="finalexamscore"/>
+            <assign variable="totalexampoints" expression="midtermscore*examscore"/>
+            <output expression="studentlastname" newline="True"/>
+            <output expression="totalexampoints" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
